@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './index.css';
+import Navbar from "./components/Navbar"
+import introimg from "./images/introimg.png"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        {/* <img src={introimg} alt='bleee' /> */}
+        <Navbar />
+        <div className='react-parent'>
+          <div className="introinfo-left">
+            <div className='left-child'>
+              <h3>Reliable fast friendly</h3>
+            </div>
+          </div>
+          <div className="introinfo-right">
+            <div className="right-child">
+              <h4> 
+              Add your friends with a friend recommendation system
+              </h4>
+              <h4>
+              Access their location using our live location access feature
+              </h4>
+              <h4>
+              Choose friend according to proximity or preference
+              </h4>
+              <h4>
+              Send pick-up Request
+              </h4>
+            </div>
+          </div>
+          
+        </div>
     </div>
+    
   );
 }
 
