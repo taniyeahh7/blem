@@ -1,6 +1,6 @@
 import './index.css';
 import Navbar from "./components/Navbar"
-import introimg from "./images/introimg.png"
+
 function App() {
   return (
     <div>
