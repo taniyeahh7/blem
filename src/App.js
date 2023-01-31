@@ -1,35 +1,26 @@
-import './index.css';
-import Navbar from "./components/Navbar"
+
+import { BrowserRouter as Router,  
+  Route,Routes,} from "react-router-dom";
+import Intro from "./components/Intro"
+import Login from "./components/Login"
+import Landing from "./components/Landing"
+import Signup from "./components/Signup"
+import Order from "./components/Order"
+import PostMyActivity1 from "./components/PostMyActivity1"
 
 function App() {
   return (
     <div>
-        {/* <img src={introimg} alt='bleee' /> */}
-        <Navbar />
-        <div className='react-parent'>
-          <div className="introinfo-left">
-            <div className='left-child'>
-              <h3>Reliable fast friendly</h3>
-            </div>
-          </div>
-          <div className="introinfo-right">
-            <div className="right-child">
-              <h4> 
-              Add your friends with a friend recommendation system
-              </h4>
-              <h4>
-              Access their location using our live location access feature
-              </h4>
-              <h4>
-              Choose friend according to proximity or preference
-              </h4>
-              <h4>
-              Send pick-up Request
-              </h4>
-            </div>
-          </div>
-          
-        </div>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Intro/>}/>
+            <Route path="/login" element={<Login/>}/>
+            <Route path="/landing" element={<Landing/>}/>
+            <Route path="/signup" element={<Signup/>}/>
+            <Route path="/order" element={<Order/>}/>
+            <Route path="/postmyact1" element={<PostMyActivity1/>}/>
+          </Routes>
+        </Router>
     </div>
     
   );

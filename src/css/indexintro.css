@@ -2,10 +2,10 @@
 
 
 body{
-    background-image: url('./images/introimg.png');
+    background-image: url('../images/introimg.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} 
 
 .react-parent {
     display: flex;
@@ -44,7 +44,6 @@ body{
 }
 
 
-
 .introinfo-left>h3{
     text-align:left;
 }
@@ -54,3 +53,37 @@ body{
     color:#fff;
     font-family:arial;
 }
+
+.button-login{
+    border-width:0.1rem;
+    border-radius:1rem;
+    background:#1DC789;
+    border-color:#1F1F1F;
+    color:#1F1F1F;
+    width:7rem;
+}
+
+
+.button-signup{
+    border-width:0.1rem;
+    border-radius:1rem;
+    background:#1F1F1F;
+    width:7rem;
+}
+
+.button-signup{
+    color:#1DC789;
+
+}
+/* transition key frames */
+
+.butts{
+    display:flex;
+    justify-content:space-around;
+    width: 18%;
+    margin:1.2rem;
+    margin-top:2rem;
+}
+
+
+
