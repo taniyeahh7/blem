@@ -52,13 +52,13 @@ nav ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .req-order button:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .req-order button{
@@ -66,8 +66,9 @@ nav ul li:hover {
     border-radius: 3rem;
     padding: 1rem;
     width: 25%;
-    transition: 0.5s;
+    transition: 0.3s;
     text-align: center;
+    border: none;
 }
 
 .add-my-act {
@@ -83,17 +84,20 @@ nav ul li:hover {
     padding: 1rem;
     width: 25%;
     text-align: center;
-    transition: 0.5s;
+    transition: 0.3s;
+    border: none;
 }
 
 .add-my-act button:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 p {
     text-align: center;
+    font-family: poppins;
+    color: aliceblue;
 }
 
 img {

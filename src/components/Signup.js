@@ -4,7 +4,7 @@ import {BrowserRouter, Route, Link } from "react-router-dom";
 import { ReactDOM } from "react-dom"
 import "../css/indexsignup.css"
 
-export default function Login(){
+export default function Signup(){
     // const [errorMessages, setErrorMessages] = useState({});
     // const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -99,10 +99,3 @@ export default function Login(){
         </div>
     );
 }
-// name
-// usrname
-// regno
-// hostelblock
-// email
-// mobile
-// password

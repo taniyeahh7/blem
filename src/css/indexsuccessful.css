@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+body{
+    background-image: url('../images/bgg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.main-succ-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-succ-div h2{
+    color:aliceblue;
+    font-family: poppins;
+}
+
+.main-succ-div h4{
+    color: aliceblue;
+    font-family: poppins;
+}
+
+.main-succ-div img{
+    height: 11%;
+    width: 11%;
+    margin-top: 15%;
+}

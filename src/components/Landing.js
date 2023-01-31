@@ -14,25 +14,27 @@ export default function Landing(){
             </section> */}
 
     <section className="button-section">
-        <Link to="/order">
+        
             <div className="req-order">
                 <button class="button-3">  
-                    <img src={bhai}/>
-                    <p>Request Order Pickup</p>
+                    <Link to="/order">
+                        <img src={bhai}/>
+                        <p>Request Order Pickup</p>
+                    </Link>
                 </button>
             </div>
-        </Link>
+        
         
         <div class="add-my-act">
             <button class="button-1">
-                <img src={Group30}/>
-                <p>Add Friends</p>
+                <img src={Group31}/>
+                <p>My Activity</p>
             </button>
             
             <button class="button-2">
-                <Link to="postmyact1">
-                    <img src={Group31}/>
-                    <p>My Activity</p>
+                <Link to="/postmyact1">
+                    <img src={Group30}/>
+                    <p>Order History</p>
                 </Link>
             </button>
             

@@ -5,7 +5,7 @@ import "../css/indexintro.css"
 
 export default function Intro(){
     return(
-        <div>
+        <div class="main-intro-class">
             <div className="butts">
                 <Link to="/login">
                     <button className="button-login">

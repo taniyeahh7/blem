@@ -15,3 +15,52 @@ body{
     width:50%;
 }
 
+/* .image-right{
+    height:5rem;
+    width: 5rem;
+} */
+
+.two-options{
+    display:flex;
+    margin-left:10%;
+    margin-top:15%;
+}
+
+.two-options img{
+    height:50%;
+    /* width:50%; */
+}
+
+.two-options p{
+    font-family: poppins;
+    color: white;
+}
+
+.button-left{
+    border-radius: 3rem;
+    background-color:#1F8E66;
+    border:none;
+}
+
+.button-right{
+    border-radius: 3rem;
+    background-color: #1F8E66;
+    border: none;
+}
+
+.button-left:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.button-right:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.button-right{
+    border-radius: 3rem;
+}
+
