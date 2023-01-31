@@ -12,7 +12,7 @@ export default function Landing(){
             {/* <section className="nav-section">
                 <Navbar />
             </section> */}
-
+        <Navbar/>
     <section className="button-section">
         
             <div className="req-order">

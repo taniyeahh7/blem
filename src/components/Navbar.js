@@ -1,12 +1,9 @@
 import React from "react"
 
-export default function Navmain(){
+export default function Navbar(){
     return(
         <div>
             <nav>
-                <ul className="hostel-logo">
-                    <h1>Hostel<span>Buddy</span></h1>
-                </ul>
                 <ul className="home-abt-ord">
                     <li>
                         Home

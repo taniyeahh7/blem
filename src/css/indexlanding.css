@@ -7,14 +7,13 @@ body{
     background-size: cover;
 } 
 
-/* nav{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #1F8E66;
 }
 
-nav h1{
+/* nav h1{
     font-weight: bold;
     font-size: 1.2rem;
     transition: 0.5s;
@@ -26,26 +25,29 @@ nav h1 span {
     font-size: 1rem;
     transition: 0.3s;
     cursor: pointer;
-}
+} */
 
 nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 1rem;
+    padding-left: 80%;
+    /* padding-top: 6%; */
 }
 
 nav ul li{
     list-style: none;
     padding-left: 2rem;
     transition: 0.3s;
+    font-family: poppins;
+    color:aliceblue;
 }
 
 nav ul li:hover {
     transform: scale(1.2);
     cursor: pointer;
     transition: 0.3s;
-}  */
+} 
 
 
 .req-order {
@@ -109,7 +111,7 @@ img {
 }
 
 .button-section {
-    padding-bottom: 4rem;
-    padding-top:4.5rem;
+    padding-bottom: 2rem;
+    padding-top:2rem;
     text-decoration: none;
 }  

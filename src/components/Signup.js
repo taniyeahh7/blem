@@ -1,5 +1,4 @@
 import React,{useState} from "react"
-import Navbar from "./Navbar"
 import {BrowserRouter, Route, Link } from "react-router-dom";
 import { ReactDOM } from "react-dom"
 import "../css/indexsignup.css"
@@ -75,8 +74,8 @@ export default function Signup(){
         <div className="login-app">
             
                 <form>
-                    <div className="parent-login-container">
-                        <div className="input-container">
+                    <div className="parent-signup-container">
+                        <div className="input-signup-container">
                             <input type="text" name="name" placeholder="Name" id="name" className="input-box-1" required/>
                             <hr></hr>
                             <input type="text" name="uname" placeholder="Username" id="uname" className="input-box-2" required/>
@@ -91,7 +90,7 @@ export default function Signup(){
                             <hr></hr>
                             <input type="password" name="pass" placeholder="Password" id="pass" className="input-box-7" required/>
                             <hr></hr>
-                            <button type="submit" className="button-submit-login">Submit</button>
+                            <button type="submit" className="button-submit-signup">Submit</button>
                         </div> 
                     </div>
                 </form>

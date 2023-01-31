@@ -7,7 +7,7 @@ import "../css/indexgetorder.css"
 export default function Login(){
     return(
         <div className="login-app">
-            
+            <Navbar/>
                 <form>
                     <div className="parent-login-container">
                         <div className="input-container">

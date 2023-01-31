@@ -3,9 +3,12 @@ import "../css/indexpostmyact1.css"
 import {BrowserRouter, Route, Link } from "react-router-dom";
 import orderdelivered from "../images/orderdelivered.png"
 import orderplaced from "../images/orderplaced.png"
+// import Navbar from "./Navbar"
+
 export default function Postmyactivity(){
     return(
         <div class="two-options">
+            {/* <Navbar/> */}
             <div class="orders-delivered">
                 <button class="button-left">
                     <Link to="/successful">
