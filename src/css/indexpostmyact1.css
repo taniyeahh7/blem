@@ -7,13 +7,13 @@ body{
     background-size: cover;
 } 
 
-/* nav{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+}
 
-/* nav h1{
+nav h1{
     font-weight: bold;
     font-size: 1.2rem;
     transition: 0.5s;
@@ -25,15 +25,15 @@ nav h1 span {
     font-size: 1rem;
     transition: 0.3s;
     cursor: pointer;
-} */
+}
 
-/* nav ul{
+nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 80%;
-    /* padding-top: 6%; 
-}*/
+    padding-top: 6%; 
+}
 
 nav ul li{
     list-style: none;
@@ -55,7 +55,7 @@ nav ul li:hover {
 
 .orders-requested{
     width:50%;
-} */
+} 
 
 /* .image-right{
     height:5rem;
